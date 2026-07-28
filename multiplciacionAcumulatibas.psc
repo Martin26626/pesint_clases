@@ -10,4 +10,6 @@ Algoritmo multiplciacionAcumulatibas
 		acumulador <- acumulador+resultado
 	FinPara
 	Escribir 'El resultado acumulado es: ', acumulador
+	Escribir "hola"
+	
 FinAlgoritmo
