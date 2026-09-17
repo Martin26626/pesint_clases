@@ -9,11 +9,11 @@ Algoritmo sin_titulo
 		Escribir "Ingrese la cantidad de columnas:"
 		Leer columnas
 		
-		Dimension matriz[filas,columnas]
+		Dimension matriz[3, 2]
 		
 		
-		Para fila <- 1 Hasta filas Hacer
-			Para columna <- 1 Hasta columnas Hacer
+		Para fila <- 1 Hasta 3 Hacer con paso 1 hacer 
+			Para columna <- 1 Hasta 2 con paso 1 hacer 
 				matriz[fila,columna] <- Aleatorio(0,100)
 			FinPara
 		FinPara
@@ -22,8 +22,8 @@ Algoritmo sin_titulo
 		
 		Limpiar Pantalla
 		
-		Para fila <- 1 Hasta filas Hacer
-			Para columna <- 1 Hasta columnas Hacer
+		Para fila <- 1 Hasta 3 Hacer con paso 1 hacer 
+			Para columna <- 1 Hasta 2 con paso 1 hacer
 				Escribir Sin Saltar matriz[fila,columna], " "
 			FinPara
 			Escribir ""
@@ -31,8 +31,8 @@ Algoritmo sin_titulo
 		
 		Escribir "Valores pares:"
 		
-		Para fila <- 1 Hasta filas Hacer
-			Para columna <- 1 Hasta columnas Hacer
+		Para fila <- 1 Hasta 3 Hacer con paso 1 hacer 
+			Para columna <- 1 Hasta 2 con paso 1 hacer 
 				Si matriz[fila,columna] MOD 2 = 0 Entonces
 					Escribir Sin Saltar matriz[fila,columna], " "
 				FinSi
