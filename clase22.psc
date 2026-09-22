@@ -1,21 +1,27 @@
 Algoritmo clase22
-		
-		Definir vector, i, cantidad Como Entero
-		
-		Dimension vector[10]
-		cantidad <- 0
-		
-		Para i <- 1 Hasta 10 Hacer
-			Escribir "Ingrese el número ", i, ":"
-			Leer vector[i]
-			
-			Si vector[i] > 5 Entonces
-				cantidad <- cantidad + 1
-			FinSi
-		FinPara
-		
-		Escribir "La cantidad de números mayores a 5 es: ", cantidad
-		
+	
+	Definir vectorEnteros, numeroIngresado, contadorCantidad, i Como Entero
+	
+	Dimension vectorEnteros[10]
+	
+	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese el número ", i, " del vector:"
+		Leer numeroIngresado
+		vectorEnteros[i] <- numeroIngresado
+	FinPara
+	
+	Limpiar Pantalla
+	
+	contadorCantidad <- 0
+	
+	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+		Si vectorEnteros[i] > 5 Entonces
+			contadorCantidad <- contadorCantidad + 1
+		FinSi
+	FinPara
+	
+	Escribir "La cantidad de elementos mayores a 5 es: ", contadorCantidad
+	
 FinAlgoritmo
 
 //crear un programa donde se agreguen elementos a un vector de tamaño 10
