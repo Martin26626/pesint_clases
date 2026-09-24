@@ -1,13 +1,18 @@
 Algoritmo clase22
 	
-	Definir vectorEnteros, numeroIngresado, contadorCantidad, i Como Entero
+	Definir vectorEnteros, numeroIngresado, contadorCantidad, i, tamanio Como Entero
 	
 	Dimension vectorEnteros[10]
 	
-	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+	tamanio=10
+	
+	Para i <- 1 Hasta tamanio Con Paso 1 Hacer
 		Escribir "Ingrese el número ", i, " del vector:"
+		
 		Leer numeroIngresado
 		vectorEnteros[i] <- numeroIngresado
+		
+		tamanio=tamanio +1 
 	FinPara
 	
 	Limpiar Pantalla
