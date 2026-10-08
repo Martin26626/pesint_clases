@@ -1,5 +1,11 @@
-# ejercicios pseint
-!["pseint_imagen"](./recursos/pseint%20imagen.png)
+# Ejercicios PSeInt
 
+<img src="./recursos/pseint%20imagen.png" alt="Imagen de PSeInt" width="150" height="300">
 
-#  son proyectos de pseint 
+## Son proyectos realizados en PSeInt
+
+|tema|dificultad|
+|----|----------|
+|variedad|baja|
+|vectores|alt |
+|reconticon|altal|
