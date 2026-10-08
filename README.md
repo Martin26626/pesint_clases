@@ -1,2 +1,5 @@
-# pesint_clases
-ejercicios de pseint
+# ejercicios pseint
+!["pseint_imagen"](./recursos/pseint%20imagen.png)
+
+
+#  son proyectos de pseint 
